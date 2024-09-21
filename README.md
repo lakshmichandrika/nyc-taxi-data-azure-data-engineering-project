@@ -51,6 +51,129 @@ Dimension Table
 ![image](https://github.com/user-attachments/assets/45418874-6eda-4948-b4a8-053141a7c91e)
 
 
+1. Initial Setup:
+
+
+
+
+Create an External table (Bronze):
+
+![image](https://github.com/user-attachments/assets/b087a5de-d145-4421-90cf-54f6f25f14fd)
+
+
+Create a view for Bronze:
+
+![image](https://github.com/user-attachments/assets/6061b4de-b844-401b-b697-65c402606418)
+
+
+(Bronze -Silver) Transformation:
+
+![image](https://github.com/user-attachments/assets/588b1ac2-9f6c-42a0-9a05-0dc7837427e9)
+
+
+Create a view for Silver:
+
+![image](https://github.com/user-attachments/assets/68dea280-273d-4a94-ad47-d4bf65a808a5)
+
+
+![image](https://github.com/user-attachments/assets/f93682a9-0de2-4c0f-92fe-6b2089a57a04)
+
+
+create a view for Gold
+
+![image](https://github.com/user-attachments/assets/ac0c9fda-6a9e-435e-8732-55675e19b2c8)
+
+
+
+BRONZE – SILVER Transformation using serverless synapse using Pipeline.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
