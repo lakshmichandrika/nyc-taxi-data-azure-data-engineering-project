@@ -1,6 +1,26 @@
 # Nyc-taxi-data-azure-data-engineering-project
 In this Project i have  implemented a data engineering solution using all services available on Azure Synapse Analytics to analyze and report data on Taxi Green trips in New York City from 2020 to 2021.
 
+Bussiness Requirements: 
+
+Campaign to encourage credit card payments
+
+    • Trips made using credit card/ Cash payments.
+
+    • Payment behaviour during days of the Week/ Weekend.
+
+    • Payment behaviour between Borough.
+
+Non-Functional Requirements:
+
+    • Reporting data to be pre-aggregated for better performance.
+
+    • Pre-aggregate data for each year/month partition in isolation.
+
+    • Able to read data efficiently for specific months from aggregated data.
+
+    • Minimize the number of aggregated tables created.
+
 About the Dataset:
 
 This dataset contains information about NYC Green trips from 2020 and 2021. -  NYC Green Trip Data
@@ -125,10 +145,22 @@ BRONZE – SILVER Transformation using serverless synapse using Pipeline.
 ![alt text](image-5.png)
 
 
- 9. Execute the pipeline by giving triggers:
+9. Execute the pipeline by giving triggers:
 
 ![alt text](image-6.png)
 
+Conclusion: 
+
+Final data can be used, to effectively encourage credit card payments.
+
+The analysis is segmented by:
+
+    1. Payment Method:
+        Compare the frequency and volume of trips made using credit cards versus cash payments.
+    2. Day of the Week:
+        Analyze payment behaviors during weekdays versus weekends to identify trends and peak times for credit card usage.
+    3. Geographical Segmentation:
+        Examine payment behaviors across different boroughs to tailor the campaign to specific areas where credit card usage is lower.
 
 
 
