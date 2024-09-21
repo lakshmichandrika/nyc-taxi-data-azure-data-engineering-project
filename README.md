@@ -122,32 +122,32 @@ BRONZE – SILVER Transformation using serverless synapse using Pipeline.
 
 3. In the Script activity, write the query for external table.
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 4. instead of using script activity use stored procedure activity
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 5. instead of creating 7 pipelines,7 datasets we have parameterized the folder path.
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 6. created a silver view by using the stored procedure code already used
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 7. created a gold view by using the stored procedure code already used.
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 8. Execute the pipeline based on our Requirement:
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 
 9. Execute the pipeline by giving triggers:
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 Conclusion: 
 
